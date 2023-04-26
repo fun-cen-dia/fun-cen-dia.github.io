@@ -1,0 +1,94 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    margin: 10px;
+    width: 95%;
+    left: -120px;
+    min-width: 800px;
+    height: 100%;
+    opacity: 1;
+}
+
+.contenedor .cubiculos{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    left: 30px;
+  
+}
+
+.contenedor .cubiculos .imagenes{
+    position: inherit;
+    top: 20px;
+    width: 400px;
+    height: 300px;
+    gap: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    background-color: aliceblue;
+}
+
+.imagenes.img{
+    cursor: pointer;
+    border-radius: 1%;
+    object-fit: unset;
+}
+
+.imagenes.img:hover{
+    position: relative;
+    transform: perspective(400px) translateZ(-5ch);
+    z-index: 100;
+    zoom: 1;
+   
+}
+
+.contenedor .li{
+    position: relative;
+    top: -50px;
+    left: 140px;
+    color: chocolate;
+}
+
+#modal p {
+    width: 60%;
+    height: 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+
+#modal{
+
+    background: rgba(0, 0, 0, 0.842);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+    z-index: 100;
+ }
+
+.span{
+   top: 30px;
+   right: 100px;
+   position: fixed;
+   font-size: 40px;
+   color: chocolate;
+   cursor: pointer;
+   
+}

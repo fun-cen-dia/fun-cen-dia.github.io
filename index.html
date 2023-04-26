@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Domotica" content="Sistema domotico web">
+    <meta name="description" content="diseño de interfaz de primaria">
+    <link rel="shortcut icon" href="img/fundacion.webp" type="image/svg+xml">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animacion-carrusel.css">  
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/resolution.css">
+    <link rel="stylesheet" href="css/galery.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Poppins:ital,wght@0,200;0,400;0,600;1,400;1,500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&family=Poppins:ital,wght@0,200;0,400;0,600;1,400;1,500&family=Roboto+Slab&display=swap" rel="stylesheet">
+   
+    <script src="js/scrollreveal.js"></script>
+
+    <title>Fundacion Centro Dia</title>
+</head>
+<body>
+
+    <nav class="sidebar ">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img/fundacion.webp" class="logo" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Fundación.</span>
+                    <span class="profesion">Centro Dia.</span>
+                    <span class="profesion1">Servicio de Adulto Mayor.</span>
+
+                </div>
+
+               <i class='bx bx-chevron-right toggle'></i> 
+            </div>
+        </header>
+
+        <div class="menu-bar">
+            <div class="menu">
+                <!--
+                    <li class="search-box">
+                        <i class="bx bx-search icon la"></i>
+                        <input type="text" placeholder="Buscar...">
+                    </li>
+                -->
+                <ul class="menu-links">
+                    <li class="nav-link ">
+                        <a href="#inicio">
+                            <i class="bx bx-home-alt icon">
+                                <span class="text nav-text nav_item">Inicio.</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link ">
+                        <a href="#quienes">
+                            <i class='bx bx-group icon'>
+                                <span class="text nav-text nav_item">Quienes Somos.</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link ">
+                        <a href="#servicios">
+                            <i class='bx bx-store-alt icon al'>
+                            
+                                <span class="text nav-text nav_item">Servicios.</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="nav-link ">
+                        <a download="Aspecto_legal" href="documentos/Aspecto_legal.pdf">
+                            <i class='bx bx-file icon al'>
+                        
+                                <span class="text nav-text nav_item">Aspecto Legal.</span>
+                            </i>
+                        </a>
+                    </li>
+
+                    <li class="nav-link ">
+                        <a class = "ubica_home"  href="#galery">
+                            <i class='bx bx-camera icon al ' id="galeria">
+                                <span class="text nav-text nav_item">Galeria.</span>
+                            </i>
+                        </a>
+                    </li>
+
+                    <li class="nav-link ">
+                        <a class = "ubica_home" href="#ubicacion">
+                            <i class="bx bx-map icon">
+                                <span class="text nav-text nav_item">Ubicanos.</span>
+                            </i>
+                        </a>
+                    </li>
+                    
+                   
+
+                    <li class="nav-link redes" >
+                        
+                        <a href="#"><i class='bx bxl-facebook-circle icon1 nav_item'></i></a>
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/+573117522157"><i class='bx bxl-whatsapp icon1 nav_item'></i></a>
+                        <a href="tel:3117522157"><i class='bx bx-phone-call icon1 nav_item'></i></a>
+                        <a href="mailto:fundacedia@gmail.com"><i class='bx bx-envelope icon1 nav_item'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</nav>
+
+<section class="home">
+
+    <div class="conten"><!-- menu para version movil-->
+            <div class="menu-links li">
+                <div class="nav-link menu_2" id="menu_2">
+                    <i class='bx bx-menu icon2 menu'></i>
+                </div>
+            </div>
+
+            <div class="option" id="option">
+                <div class="nav-link"> 
+                    <a href="#inicio">
+                        <i class="bx bx-home-alt icon2"></i>
+                    </a>
+                    <a href="#quienes">
+                        <i class='bx bx-group icon2'></i>
+                    </a>
+                    <a href="#servicios">
+                        <i class='bx bx-store-alt icon2 al'></i>
+                    </a>
+                    <a download="Aspecto_legal" href="documentos/Aspecto_legal.pdf">
+                        <i class='bx bx-file icon2 al'></i>
+                    </a>
+                    <a class = "ubica_home" href="#ubicacion">
+                        <i class="bx bx-map icon2"></i>
+                    </a>
+                </div>     
+            </div>
+    </div>
+    
+    
+    <div class="logotip" id="inicio"> 
+        <img class="logo" src="img/fundacion.webp" alt="">
+        <samp class="logotipe">Fundacion Centro Dia.</samp>
+    </div>
+
+
+    
+    <div class="ocul">
+       <a href="#"><i class='bx bxl-facebook-circle icon1 nav_item '></i></a>
+       <a aria-label="Chat on WhatsApp" href="https://wa.me/+573117522157"><i class='bx bxl-whatsapp icon1 nav_item '></i></a>
+       <a href="tel:3117522157"><i class='bx bx-phone-call icon1 nav_item'></i></a>
+       <a href="mailto:fundacedia@gmail.com"><i class='bx bx-envelope icon1 nav_item '></i></a>
+    </div>
+
+    <div class="container__slider">
+
+        <div class="container">
+            <input type="radio" name="slider" id="item-1" checked>
+            <input type="radio" name="slider" id="item-2">
+            <input type="radio" name="slider" id="item-3">
+            <input type="radio" name="slider" id="item-4">
+            <input type="radio" name="slider" id="item-5">
+            <input type="radio" name="slider" id="item-6">
+
+            <div class="cards">
+                
+                <label class="card" for="item-1" id="selector-1">
+                    <img src="imgsitio/WhatsApp Image 2023-03-22 at 14.14.50.webp" alt="">
+                </label>
+                <label class="card" for="item-2" id="selector-2">
+                    <img src="imgsitio/WhatsApp Image 2023-03-20 at 15.48.57.webp" alt="">
+                </label>
+                <label class="card" for="item-3" id="selector-3">
+                    <img src="imgsitio/WhatsApp Image 2023-03-20 at 15.39.14.jpg" alt="">
+                </label>
+                <label class="card" for="item-4" id="selector-4">
+                    <img src="imgsitio/WhatsApp Image 2023-03-20 at 15.38.35.jpg" alt="">
+                </label>
+                <label class="card" for="item-5" id="selector-5">
+                    <img src="imgsitio/WhatsApp Image 2023-03-20 at 15.40.23.jpg" alt="">
+                </label>
+                <label class="card" for="item-6" id="selector-6">
+                    <img src="imgsitio/WhatsApp Image 2023-03-20 at 15.48.04.jpg" alt="">
+                </label>
+
+            </div>
+        </div>
+
+    </div>
+       
+
+    <div class="quienes_somos text" id="quienes">
+           <h3 class="titulo ani1 nav_item li">QUIENES SOMOS.</h3>
+           <div class="ani1">
+            La Fundación Centro Dia es una organización sin ánimo de lucro enfocada en la prestación de servicios sociales a personas de escasos recursos y con condición de adulto mayor en vulnerabilidad. 
+            Nuestras principales actividades buscan fomentar el desarrollo social mediante el acompañamiento continuo de adultos mayores bajo condiciones especiales. 
+                      
+           </div>
+
+            <div class="control ">  
+
+               <h3 class="ani1 nav_item li">Misión.</h3>
+                <div class="ani1 ">
+                Nuestra misión busca dar protección al adulto mayor de escasos recursos y en condición de vulnerabilidad; mediante la atención de sus necesidades básicas como lo son: (Alimentación, servicios médicos, Entrega de Dotación y actividades lúdico recreativas).</div>
+                <br>
+                <h3 class="ani1 nav_item li">Visión.</h3>
+                <div class="ani1">
+                    Nuestra organización tiene como visión la prolongación y expansión de nuestros servicios sociales en nuestra región. Es así que en un periodo de 5 años aspiramos ser el mejor centro social del distrito de Buenaventura, lograr la inclusión de nuevas alianzas; con las cuales mitigar los niveles de vulnerabilidad en adultos mayores de nuestros registros.</div>
+            </div>
+    </div>    
+
+    <div class="cajas text">
+            <h3 class="ani1 nav_item li"> VALORES. </h3>
+            <p class="ani1 ">
+                Nuestros valores representan la piedra angular de nuestra organización. Es por esto que entre nuestros principios sociales destacamos:
+            </p>
+        </div>  
+
+    <div class="valores text">
+               
+
+        <div class="cajas_1 ani1">
+             <div class="li nav_item li"> Responsabilidad.  </div> 
+              La fundación centro dia te permitirá reconocer la responsabilidad de tus acciones (y 
+              omisiones). Es la mejor forma de generar confianza interna y externamente.
+        </div> 
+       
+        <div class="cajas_2 ani1">
+          <div class="li ani1 nav_item li">  Inclusión. </div> 
+              Las organizaciones tienen éxito al atraer diferentes experiencias 
+              de vida y una variedad de antecedentes en un entorno compartido, donde 
+              todos tienen las mismas oportunidades. 
+        </div>
+          
+        <div class="cajas_3 ani1">
+             <div class="li ani1 nav_item li">  Humildad. </div> 
+             Nadie tiene todas las respuestas, por eso este valor es tan 
+             importante. Una cultura de humildad y conocimientos nuevos y continuos es 
+             un principio fundamental de nuestra organización.
+        </div>
+          
+          <div class="cajas_4 ani1">
+              <div class="li ani1 nav_item li">   Trabajo en Equipo. </div> 
+              En nuestra organización basamos nuestro campo de acción en el fortalecimiento del trabajo en equipo pues representa uno de los pilares fundamentales de la construcción social.
+          </div>
+          
+          <div class="cajas_5 ani1">
+              <div class="li ani1 nav_item li">  Bondad. </div> 
+              Las buenas acciones representan nuestro camino, es por eso que cada acción esta ligada a la entrega incondicional y al buen deseo de ayudar a nuestros adultos mayores. 
+          </div>
+    </div>
+           
+            
+        
+
+        <div class="Servicios text position" id="servicios">
+
+            <h3 class="pos ani1 nav_item li">SERVICIOS.</h3>
+            
+            <p class="pos1 ani1">
+                La fundación centro día cuenta con una gama de servicios sociales los cuales buscan garantizar los derechos de nuestros allegados mediante la prestación de servicios como:
+            </p>
+
+            <div class="image pos2">
+                <img src="img/3.JPG" alt="prueva">
+                <div class="texto">
+                    <div class="tex">Servicios Medicos.</div>
+                    <p>Realización de jornadas medicas a ancianos con dificultad y vulnerabilidad social.</p> 
+                </div> 
+            </div> 
+
+            <div class="image pos3">
+                <img src="img/2.JPG" alt="prueva">
+                <div class="texto">
+                    <div class="tex">Monitoreos Cardiacos.</div>
+                    <p>En la actualidad la salud cardiaca representa un aspecto de gran impacto en nuestros adultos mayores.  </p> 
+                </div> 
+            </div> 
+
+            <div class="image pos4">
+                <img src="img/5.JPG" alt="prueva">
+                <div class="texto">
+                    <div class="tex">Servicio de Alimentacion.</div>
+                    <p>Garantizamos la alimentación y la nutrición de nuestros invitados.  </p> 
+                </div> 
+            </div> 
+            <div class="image pos5">
+                <img src="img/4.JPG" alt="prueva">
+                <div class="texto">
+                    <div class="tex">Entrga de Viveres.</div>
+                    <p>Realizamos entrega de dotación alimenticia. </p> 
+                </div> 
+            </div> 
+            
+           
+            
+        </div>
+
+        <div id="modal" class="ver">
+            <span class="span">&times;</span>
+            <div class="contenedor" >
+                <h3 class="li" id="galery">Recuerdos.</h3> 
+                
+                <div class="cubiculos">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.38.35.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.39.14.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.40.23.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.40.55.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.42.20.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.45.36.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.46.46.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.48.04.jpg" alt="" class="ima">
+                        <img class="imagenes img" src="imgsitio/WhatsApp Image 2023-03-20 at 15.48.57.webp" alt="" class="ima">
+                </div>
+            </div>
+        </div>
+
+  <footer class="map text">
+        <div id="ubicacion">
+            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.72572523851!2d-76.99650858537377!3d3.868875149385641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e373b3885b77fa5%3A0xd2b541c0c0f4553d!2sCra.%2069%2C%20Buenaventura%2C%20Valle%20del%20Cauca!5e0!3m2!1sen!2sco!4v1675632329409!5m2!1sen!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        </div> 
+        <div class="datos"> 
+            <div><span class="sup">Direccion:</span> <span >Cl 5 CR 69  Barrio Urb Bahia</span> </div> 
+            <div><span class="sup">Telefóno de Contacto:</span> <span >3117522157 - 3127554464</span></div> 
+            <div><span class="sup">Correo:</span> <span >fundacedia@gmail.com</span></div> 
+        </div> 
+    </footer>
+
+</section>
+<script src="js/index.js"></script>
+<script src="js/efecto_menu_img.js"> </script>
+<script src="js/efecto.js"> </script>
+
+
+</body>
+</html>
